@@ -1,21 +1,18 @@
 /**
  * Componente: SaludoConDefaultProps
  * Propósito:
- *   Saludar usando un nombre que puede ser opcional.
+ *   Mostrar un saludo usando un nombre, con un valor por defecto.
  *
- * Props esperadas:
- *   - nombre: string (opcional)
+ * Default:
+ *   - nombre = "Invitado"
  *
- * Especificaciones:
- *   - Si no se pasa nombre, usar "Invitado".
- *   - El valor por defecto debe declararse con parámetros JS:
- *        function Componente({ nombre = "Invitado" })
- *     O validación interna.
- *   - Evitar usar defaultProps.
- *
- * Caso:
+ * Ejemplos:
  *   <SaludoConDefaultProps />
  *   <SaludoConDefaultProps nombre="Kevin" />
  *
- * Solo documentación.
+ * Solo documentación. No implementa JSX real.
  */
+
+export default function SaludoConDefaultProps() {
+  return null;
+}

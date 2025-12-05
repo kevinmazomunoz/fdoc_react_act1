@@ -14,5 +14,12 @@
  *        a) <SaludoBasico nombre="Kevin" entusiasta={true} />
  *        b) <SaludoBasico nombre="Maria" />
  *
- * NOTA: No implementar JSX, solo documentación.
+ * IMPORTANTE:
+ *   Este archivo solo contiene documentación.
+ *   El componente no está implementado, solo existe una estructura vacía
+ *   para evitar errores en Next.js.
  */
+
+export default function SaludoBasico() {
+  return null; // Componente vacío pero válido
+}

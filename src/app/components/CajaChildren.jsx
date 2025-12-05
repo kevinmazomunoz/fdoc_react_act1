@@ -1,23 +1,20 @@
 /**
  * Componente: CajaChildren
  * Propósito:
- *   Mostrar todo el contenido que se pase como children.
+ *   Contener y mostrar cualquier contenido que se pase como children.
  *
- * Prop especial:
- *   - children: contenido React
+ * Props esperadas:
+ *   - children: contenido JSX dinámico.
  *
- * Especificaciones:
- *   - Debe envolver children dentro de un contenedor simple (div, por ejemplo).
- *
- * Casos:
+ * Ejemplos:
  *   <CajaChildren>
- *      <h1>Título</h1>
- *      <p>Texto dentro de la caja</p>
+ *       <h1>Título</h1>
+ *       <p>Texto dentro de la caja</p>
  *   </CajaChildren>
  *
- *   <CajaChildren>
- *      <ul><li>A</li><li>B</li></ul>
- *   </CajaChildren>
- *
- * Solo documentación.
+ * Este archivo contiene solo documentación.
  */
+
+export default function CajaChildren() {
+  return null;
+}

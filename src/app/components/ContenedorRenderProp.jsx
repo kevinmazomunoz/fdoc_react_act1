@@ -1,23 +1,20 @@
 /**
  * Componente: ContenedorRenderProp
  * Propósito:
- *   Aceptar:
- *      - contenido: elemento React
- *        O
- *      - render: función que retorna un elemento React
+ *   Renderizar contenido fijo o ejecutar una función render prop.
  *
  * Props esperadas:
- *   - contenido?: ReactNode
- *   - render?: () => ReactNode
+ *   - contenido: JSX fijo.
+ *   - render: función que retorna JSX dinámico.
  *
- * Especificaciones:
- *   - Si se envía "contenido", mostrarlo directamente.
- *   - Si se envía "render", ejecutar la función y mostrar su retorno.
- *   - Elegimos el patrón "render prop" porque es más flexible.
+ * Ejemplos:
+ *   <ContenedorRenderProp contenido={<p>Contenido fijo</p>} />
  *
- * Casos:
- *   <ContenedorRenderProp contenido={<h2>Hola</h2>} />
- *   <ContenedorRenderProp render={() => <p>Generado dinámicamente</p>} />
+ *   <ContenedorRenderProp render={() => <h2>Contenido dinámico</h2>} />
  *
- * Solo documentación.
+ * Este archivo solo documenta su uso. No implementa JSX real.
  */
+
+export default function ContenedorRenderProp() {
+  return null;
+}

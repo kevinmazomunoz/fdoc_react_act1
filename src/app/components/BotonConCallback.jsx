@@ -1,18 +1,20 @@
 /**
  * Componente: BotonConCallback
  * Propósito:
- *   Mostrar un botón que ejecuta una función enviada por props.
+ *   Representa un botón que ejecuta una función pasada por props.
  *
  * Props esperadas:
- *   - texto: string
- *   - onClick: function
+ *   - texto: string → texto que muestra el botón.
+ *   - onClick: function → función a ejecutar cuando se hace clic.
  *
  * Especificaciones:
- *   - Cuando se haga clic, debe llamar a la función onClick.
- *   - No se implementa la función ni la UI real.
+ *   - Debe reaccionar al clic llamando a onClick().
+ *   - Ejemplo:
+ *        <BotonConCallback texto="Haz clic" onClick={() => alert("Clic!")} />
  *
- * Ejemplo teórico:
- *   <BotonConCallback texto="Guardar" onClick={() => console.log("click")} />
- *
- * Solo documentación.
+ * Este archivo contiene solo documentación. No implementa JSX real.
  */
+
+export default function BotonConCallback() {
+  return null;
+}

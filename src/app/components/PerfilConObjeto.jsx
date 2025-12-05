@@ -1,22 +1,24 @@
 /**
  * Componente: PerfilConObjeto
  * Propósito:
- *   Recibir un objeto "usuario" y mostrar nombre y lista de hobbies.
+ *   Recibir un objeto usuario y mostrar sus propiedades.
  *
  * Props esperadas:
  *   - usuario: {
- *         nombre: string,
- *         hobbies: string[]
+ *        nombre: string,
+ *        hobbies: array de strings
  *     }
  *
- * Especificaciones:
- *   - Mostrar usuario.nombre
- *   - Mostrar hobbies separados por comas.
- *   - Si hobbies.length === 0 → mostrar "Sin hobbies".
- *
  * Casos:
- *   <PerfilConObjeto usuario={{ nombre: "Kevin", hobbies: ["Gym", "Programar"] }} />
- *   <PerfilConObjeto usuario={{ nombre: "Ana", hobbies: [] }} />
+ *   <PerfilConObjeto usuario={{ nombre: "Kevin", hobbies: ["programar", "gym"] }} />
+ *   <PerfilConObjeto usuario={{ nombre: "Luis", hobbies: [] }} />
  *
- * Solo documentación, sin JSX.
+ * Reglas:
+ *   - Si hobbies está vacío → mostrar "Sin hobbies".
+ *
+ * Este archivo es solo documentación.
  */
+
+export default function PerfilConObjeto() {
+  return null;
+}
